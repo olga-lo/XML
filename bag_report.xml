@@ -1,0 +1,26 @@
+<bag_report>
+  <header> Поле "Комментарий" принимает только 14 символов после отправки отзыва </header>
+
+    <description>
+      1. Перейти на https://response-form.herokuapp.com/;
+      2. В поле "Имя" ввести имя, например: Милана;
+      3. В поле "Дата" ввести дату, например: 01.08.2023;
+      4. Поставить рейтинг, например: 5 звёзд;
+      5. В поле "Комментарий" написать комментарий более чем на 15 символов, например "Вкусный кекс";
+      6. Нажать кнопку "Отправить отзыв"
+    </description>
+
+        <actual_result>Поле "Комментарий" не принимает более 15 символов</actual_result>
+        <expected_result>Поле "Комментарий" принимает более 15 символов</expected_result>
+
+  <environment>
+    <Windows_10><version:20H2><assembly:19042.1466></assembly:19042.1466></version:20H2></Windows_10>
+      <browser_version:99.0.4844.51>Chrome</browser_version:99.0.4844.51>
+        <size:1920x1080>Screen</size:1920x1080>
+  </environment>
+
+  <severity:S2>critical</severity:S2>
+  <priority>high</priority>
+
+  <author>Milana Ivanova</author>
+</bag_report>
